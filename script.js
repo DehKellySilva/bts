@@ -6,7 +6,7 @@ function countdown() {
     
     if (difference < 0) {
         clearInterval(interval);
-        document.getElementById('countdown').innerHTML = "O evento começou!";
+        document.getElementById('countdown').innerHTML = "Ele saiu!!!!";
         return;
     }
     
@@ -26,7 +26,7 @@ function countdown2() {
     
     if (difference < 0) {
         clearInterval(interval2);
-        document.getElementById('countdown2').innerHTML = "O evento começou!";
+        document.getElementById('countdown2').innerHTML = "Ele saiu!!!!";
         return;
     }
     
@@ -46,7 +46,7 @@ function countdown3() {
     
     if (difference < 0) {
         clearInterval(interval2);
-        document.getElementById('countdown3').innerHTML = "O evento começou!";
+        document.getElementById('countdown3').innerHTML = "Ele saiu!!!!";
         return;
     }
     
@@ -66,7 +66,7 @@ function countdown4() {
     
     if (difference < 0) {
         clearInterval(interval2);
-        document.getElementById('countdown4').innerHTML = "O evento começou!";
+        document.getElementById('countdown4').innerHTML = "Ele saiu!!!!";
         return;
     }
     
@@ -86,7 +86,7 @@ function countdown5() {
     
     if (difference < 0) {
         clearInterval(interval2);
-        document.getElementById('countdown5').innerHTML = "O evento começou!";
+        document.getElementById('countdown5').innerHTML = "Ele saiu!!!!";
         return;
     }
     
@@ -106,7 +106,7 @@ function countdown6() {
     
     if (difference < 0) {
         clearInterval(interval2);
-        document.getElementById('countdown6').innerHTML = "O evento começou!";
+        document.getElementById('countdown6').innerHTML = "Ele saiu!!!!";
         return;
     }
     
@@ -126,7 +126,7 @@ function countdown7() {
     
     if (difference < 0) {
         clearInterval(interval2);
-        document.getElementById('countdown7').innerHTML = "O evento começou!";
+        document.getElementById('countdown7').innerHTML = "Ele saiu!!!!";
         return;
     }
     
