@@ -70,36 +70,43 @@ body {
 
 .jin {
     height: 200px;
-    margin-top: 20px;
+    max-width: 100%; 
+    margin-top: 20px
 }
 
 .j-hope {
     height: 200px;
-    margin-top: 20px;
+    max-width: 100%; 
+    margin-top: 20px
 }
 
 .v {
     height: 200px;
-    margin-top: 20px;
+    max-width: 100%; 
+    margin-top: 20px
 }
 
 .rm {
     height: 200px;
-    margin-top: 20px;
+    max-width: 100%; 
+    margin-top: 20px
 }
 
 .jk {
     height: 200px;
-    margin-top: 20px;
+    max-width: 100%; 
+    margin-top: 20px
 }
 
 .jimin {
     height: 200px;
-    margin-top: 20px;
+    max-width: 100%; 
+    margin-top: 20px
 }
 
 .suga {
     height: 200px;
-    margin-top: 20px;
+    max-width: 100%; 
+    margin-top: 20px
 }
 
