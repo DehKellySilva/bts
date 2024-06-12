@@ -1,23 +1,3 @@
-function countdown() {
-    const targetDate = new Date("2024-06-12T00:00:00+09:00"); // Data-alvo para o Evento 1
-    
-    const now = new Date().getTime();
-    const difference = targetDate - now;
-    
-    if (difference < 0) {
-        clearInterval(interval);
-        document.getElementById('countdown').innerHTML = "Ele saiu!!!!";
-        return;
-    }
-    
-    const days = Math.floor(difference / (1000 * 60 * 60 * 24));
-    const hours = Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    const minutes = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
-    const seconds = Math.floor((difference % (1000 * 60)) / 1000);
-    
-    document.getElementById('countdown').innerHTML = `${days}d ${hours}h ${minutes}m ${seconds}s`;
-}
-
 function countdown2() {
     const targetDate2 = new Date("2024-10-17T00:00:00+09:00"); // Data-alvo para o Evento 2
     
@@ -138,8 +118,6 @@ function countdown7() {
     document.getElementById('countdown7').innerHTML = `${days}d ${hours}h ${minutes}m ${seconds}s`;
 }
 
-countdown(); // Inicia a contagem regressiva para o Evento 1 imediatamente
-const interval = setInterval(countdown, 1000); // Atualiza a contagem regressiva para o Evento 1 a cada segundo
 
 countdown2(); // Inicia a contagem regressiva para o Evento 2 imediatamente
 const interval2 = setInterval(countdown2, 1000); // Atualiza a contagem regressiva para o Evento 2 a cada segundo
